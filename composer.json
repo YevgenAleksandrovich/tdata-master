@@ -1,0 +1,17 @@
+{
+    "name": "tfrajj/tdata",
+    "description": "Data fetching",
+    "type": "project",
+    "license": "gnu",
+    "authors": [
+        {
+            "name": "tfrajj",
+            "email": "tfrajj@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/dbal": "^2.10",
+        "symfony/yaml": "^5.0",
+        "mmucklo/krumo": "^0.6.0"
+    }
+}

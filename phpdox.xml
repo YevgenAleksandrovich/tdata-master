@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpdox xmlns="http://xml.phpdox.net/config">
+    <project name="tData" source="${basedir}/app/src" workdir="${basedir}/phpdox/api/xml">
+        <collector backend="parser" />
+        <generator output="${basedir}/phpdox/build/api">
+            <build engine="html" output="html"/>
+        </generator>
+    </project>
+</phpdox>
